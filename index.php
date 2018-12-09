@@ -31,7 +31,7 @@
 
     // Static route: /hello
     $router->get('/hello', function () {
-        echo '<h1>bramus/router</h1><p>Visit <code>/hello/<em>name</em></code> to get your Hello World!</p>';
+        echo '<h1>PHPRouter</h1><p>Visit <code>/hello/<em>name</em></code> to get your Hello World!</p>';
     });
 
     // Dynamic route: /hello/name
